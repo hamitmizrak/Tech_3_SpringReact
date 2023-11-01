@@ -1,0 +1,6 @@
+2023-11-01T12:49:41.492+03:00  INFO 21980 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : Starting Tech3SpringReactApplication using Java 21 with PID 21980 (D:\spring\Tech_3_SpringReact\target\classes started by 90553 in D:\spring\Tech_3_SpringReact)
+2023-11-01T12:49:41.494+03:00  INFO 21980 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : The following 1 profile is active: "frontend"
+2023-11-01T12:49:41.559+03:00  INFO 21980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-01T12:49:41.560+03:00  INFO 21980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-01T12:49:42.775+03:00  INFO 21980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-01T12:49:42.804+03:00  INFO 21980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
