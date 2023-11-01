@@ -28,7 +28,6 @@ public class RegisterApiImpl implements IRegisterApi<RegisterDto> {
     // INJECTION
     private final IRegisterServices iRegisterServices;
 
-
     ///////////////////////////////////////////////////////////////////////////
     // SPEED DATA
     // http://localhost:4444/register/api/v1.0.0/speed/data/10

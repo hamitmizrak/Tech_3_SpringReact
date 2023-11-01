@@ -1,0 +1,25 @@
+# docker-compose --version
+# docker-compose up
+# docker-compose up -d
+# docker-compose -f docker-compose-mysql.yml up
+# docker-compose -f docker-compose-postgresql.yml up
+# docker-compose down
+# docker-compose restart
+# docker-compose ps
+
+
+# restart: parametresi farklı restart işlemlerinde kullanılır. Bu parametre sayesinde
+# servisler veya konteynarlar durduğunda ,sistem çöktüğünde serverin nasıl davrancağını belirtir.
+# restart: no (default) ( yani docker compose otomatik olarak restart uygulasın
+# restart: unless-stopped (  konteynar durduğunda otomatik olarak yeniden başlamasın
+# restart: always (konteynar her zaman otomatik başlatsın)
+# restart: on-failure  (konteynar çökmesi durumunda otomatik olarak başlat)
+
+services:
+  backend_web:
+    container_name: container_spring_react
+    image: image_spring_react
+    restart: on-failure
+    build: ./
+    ports:
+      - "4444:4444"

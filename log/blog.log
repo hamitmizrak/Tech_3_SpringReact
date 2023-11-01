@@ -65,3 +65,40 @@
 2023-11-01T14:48:43.345+03:00  INFO 21980 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-11-01T14:48:43.363+03:00  INFO 21980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-11-01T14:48:43.369+03:00  INFO 21980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-01T14:48:52.959+03:00  INFO 6732 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : Starting Tech3SpringReactApplication using Java 21 with PID 6732 (D:\spring\Tech_3_SpringReact\target\classes started by 90553 in D:\spring\Tech_3_SpringReact)
+2023-11-01T14:48:52.961+03:00  INFO 6732 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : The following 1 profile is active: "frontend"
+2023-11-01T14:48:53.012+03:00  INFO 6732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-01T14:48:53.013+03:00  INFO 6732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-01T14:48:53.901+03:00  INFO 6732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-01T14:48:53.950+03:00  INFO 6732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-11-01T14:48:54.500+03:00  INFO 6732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-11-01T14:48:54.506+03:00  INFO 6732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-01T14:48:54.507+03:00  INFO 6732 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-01T14:48:54.555+03:00  INFO 6732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-01T14:48:54.556+03:00  INFO 6732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1543 ms
+2023-11-01T14:48:54.636+03:00  INFO 6732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-01T14:48:54.823+03:00  INFO 6732 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-11-01T14:48:54.824+03:00  INFO 6732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-01T14:48:54.833+03:00  INFO 6732 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-11-01T14:48:54.892+03:00 DEBUG 6732 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-11-01T14:48:54.893+03:00 DEBUG 6732 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-11-01T14:48:55.337+03:00  INFO 6732 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-01T14:48:56.216+03:00  INFO 6732 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01T14:48:56.225+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.AuditorAwareBeanClass         : auditor Aware bean Before başladı
+2023-11-01T14:48:56.226+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.BlogCommandLineRunner         : blog CommandLineRunner After Bean Method başladı
+2023-11-01T14:48:56.227+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.Locale18NBeanClass            : swagger Open Api Before Bean başladı
+2023-11-01T14:48:56.228+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.ModelMapperBeanClass          : Model mapper bean Before başladı
+2023-11-01T14:48:56.228+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.PasswordEncoderBeanClass      : password Encoder Before Bean başladı
+2023-11-01T14:48:56.229+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.SwaggerOpenApiBeanClass       : swagger Open Api Before Bean başladı
+2023-11-01T14:48:56.703+03:00  WARN 6732 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-01T14:48:56.809+03:00 DEBUG 6732 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-01T14:48:56.834+03:00  INFO 6732 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-11-01T14:48:56.886+03:00 DEBUG 6732 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2023-11-01T14:48:57.253+03:00 DEBUG 6732 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-11-01T14:48:57.262+03:00 DEBUG 6732 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-01T14:48:57.638+03:00  INFO 6732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-01T14:48:57.644+03:00  INFO 6732 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-11-01T14:48:57.725+03:00  INFO 6732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-11-01T14:48:57.737+03:00  INFO 6732 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : Started Tech3SpringReactApplication in 5.154 seconds (process running for 5.793)
+2023-11-01T14:48:57.742+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.BlogCommandLineRunner2        : CommandLineRunner Çalıştı Sade
+2023-11-01T14:48:57.742+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.BlogCommandLineRunner         : CommandLineRunner Çalıştı
