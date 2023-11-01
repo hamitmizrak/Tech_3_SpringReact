@@ -4,3 +4,61 @@
 2023-11-01T12:49:41.560+03:00  INFO 21980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-11-01T12:49:42.775+03:00  INFO 21980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2023-11-01T12:49:42.804+03:00  INFO 21980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2023-11-01T12:49:44.165+03:00  INFO 21980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
+2023-11-01T12:49:44.177+03:00  INFO 21980 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-01T12:49:44.177+03:00  INFO 21980 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-01T12:49:44.266+03:00  INFO 21980 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-01T12:49:44.267+03:00  INFO 21980 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2705 ms
+2023-11-01T12:49:44.400+03:00  INFO 21980 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-01T12:49:44.625+03:00  INFO 21980 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-11-01T12:49:44.627+03:00  INFO 21980 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-01T12:49:44.635+03:00  INFO 21980 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-11-01T12:49:44.694+03:00 DEBUG 21980 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2023-11-01T12:49:44.694+03:00 DEBUG 21980 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
+2023-11-01T12:49:45.121+03:00  INFO 21980 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-01T12:49:45.455+03:00  INFO 21980 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01T12:49:45.587+03:00  WARN 21980 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-01T12:49:45.725+03:00 DEBUG 21980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-01T12:49:45.757+03:00  INFO 21980 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-11-01T12:49:45.807+03:00 DEBUG 21980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2023-11-01T12:49:46.190+03:00 DEBUG 21980 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-11-01T12:49:46.201+03:00 DEBUG 21980 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-01T12:49:46.625+03:00  INFO 21980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-01T12:49:46.630+03:00  INFO 21980 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2023-11-01T12:49:46.704+03:00  INFO 21980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
+2023-11-01T12:49:46.716+03:00  INFO 21980 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : Started Tech3SpringReactApplication in 5.877 seconds (process running for 6.897)
+2023-11-01T12:50:15.307+03:00  INFO 21980 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01T12:50:15.307+03:00  INFO 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-01T12:50:15.307+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-11-01T12:50:15.307+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-11-01T12:50:15.308+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-11-01T12:50:15.309+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@412c1889
+2023-11-01T12:50:15.310+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@10d3a31
+2023-11-01T12:50:15.310+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-11-01T12:50:15.310+03:00  INFO 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-11-01T12:50:15.334+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-11-01T12:50:15.383+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2023-11-01T12:50:15.629+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-11-01T12:50:15.655+03:00 DEBUG 21980 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2023-11-01T12:50:15.656+03:00 DEBUG 21980 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
+2023-11-01T12:50:15.660+03:00 DEBUG 21980 --- [http-nio-4444-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-01T12:50:15.660+03:00 DEBUG 21980 --- [http-nio-4444-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-01T12:50:15.667+03:00 DEBUG 21980 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-11-01T12:50:15.667+03:00 DEBUG 21980 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-11-01T12:50:26.131+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/index.html", parameters={}
+2023-11-01T12:50:26.132+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-01T12:50:26.133+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-11-01T12:50:26.134+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-11-01T12:50:26.137+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-11-01T12:50:26.139+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2023-11-01T12:50:26.158+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2023-11-01T12:50:26.164+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-11-01T12:50:42.892+03:00 DEBUG 21980 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-11-01T12:50:42.893+03:00 DEBUG 21980 --- [http-nio-4444-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2023-11-01T12:50:42.896+03:00 DEBUG 21980 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-11-01T12:50:42.922+03:00 DEBUG 21980 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
+2023-11-01T12:50:42.922+03:00 DEBUG 21980 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2023-11-01T12:50:42.923+03:00 DEBUG 21980 --- [http-nio-4444-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-01T12:50:42.924+03:00 DEBUG 21980 --- [http-nio-4444-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-11-01T12:50:42.925+03:00 DEBUG 21980 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-11-01T12:50:42.926+03:00 DEBUG 21980 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

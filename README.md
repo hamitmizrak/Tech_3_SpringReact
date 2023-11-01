@@ -2,7 +2,7 @@
 
 ![readme](./picture/readme.png)
 
-[Full Stack 11](https://github.com/hamitmizrak/FullStackDeveloper11.git)
+[Full Stack 11]()
 
 git clone https://github.com/hamitmizrak/Tech_5_SpringReact
 ---
