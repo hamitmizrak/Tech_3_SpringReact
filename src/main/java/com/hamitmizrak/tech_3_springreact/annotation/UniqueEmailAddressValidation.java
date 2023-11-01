@@ -1,5 +1,6 @@
 package com.hamitmizrak.tech_3_springreact.annotation;
 
+import com.hamitmizrak.tech_3_springreact.data.repository.IRegisterRepository;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import lombok.RequiredArgsConstructor;
