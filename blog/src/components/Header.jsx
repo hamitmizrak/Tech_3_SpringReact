@@ -38,6 +38,13 @@ class Header extends Component {
     }
 
     //FUNCTION
+       // onSubmitSearch
+       onSubmitSearch(e) {
+        e.preventDefault();
+        this.searchPerson(this.state.searchData);
+        // Gönderme işleminden sonra search içindeki veri silinsin
+        this.setState({ searchData: "" })
+    }
 
     // RENDER
     render() {
@@ -82,7 +89,6 @@ class Header extends Component {
                             <ul className="navbar-nav ms-auto mt-2 mt-lg-0">
                                 {/* i18n Language */}
 
-
                                 <li className="nav-item dropdown">
                                     <a
                                         className="nav-link dropdown-toggle"
@@ -109,7 +115,7 @@ class Header extends Component {
                                         className="form-control me-sm-2"
                                         value={this.state.searchData}
                                         onChange={this.onChangeSearch}
-                                        placeholder={t('search')}
+                                        placeholder={this.props.t('search')}
                                     />
                                     <button
                                         type="submit"
