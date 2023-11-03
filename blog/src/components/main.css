@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+
+html {
+    font-size: 15px;
+}
+
+body {
+    position: relative;
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+    margin: 0 1rem;
+}
