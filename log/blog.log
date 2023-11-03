@@ -1,104 +1,37 @@
-2023-11-01T12:49:41.492+03:00  INFO 21980 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : Starting Tech3SpringReactApplication using Java 21 with PID 21980 (D:\spring\Tech_3_SpringReact\target\classes started by 90553 in D:\spring\Tech_3_SpringReact)
-2023-11-01T12:49:41.494+03:00  INFO 21980 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : The following 1 profile is active: "frontend"
-2023-11-01T12:49:41.559+03:00  INFO 21980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-11-01T12:49:41.560+03:00  INFO 21980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-11-01T12:49:42.775+03:00  INFO 21980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-11-01T12:49:42.804+03:00  INFO 21980 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
-2023-11-01T12:49:44.165+03:00  INFO 21980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
-2023-11-01T12:49:44.177+03:00  INFO 21980 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-11-01T12:49:44.177+03:00  INFO 21980 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
-2023-11-01T12:49:44.266+03:00  INFO 21980 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-11-01T12:49:44.267+03:00  INFO 21980 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2705 ms
-2023-11-01T12:49:44.400+03:00  INFO 21980 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-11-01T12:49:44.625+03:00  INFO 21980 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
-2023-11-01T12:49:44.627+03:00  INFO 21980 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-11-01T12:49:44.635+03:00  INFO 21980 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
-2023-11-01T12:49:44.694+03:00 DEBUG 21980 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
-2023-11-01T12:49:44.694+03:00 DEBUG 21980 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
-2023-11-01T12:49:45.121+03:00  INFO 21980 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-11-01T12:49:45.455+03:00  INFO 21980 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-11-01T12:49:45.587+03:00  WARN 21980 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-01T12:49:45.725+03:00 DEBUG 21980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-11-01T12:49:45.757+03:00  INFO 21980 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-11-01T12:49:45.807+03:00 DEBUG 21980 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
-2023-11-01T12:49:46.190+03:00 DEBUG 21980 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-11-01T12:49:46.201+03:00 DEBUG 21980 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-11-01T12:49:46.625+03:00  INFO 21980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-11-01T12:49:46.630+03:00  INFO 21980 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2023-11-01T12:49:46.704+03:00  INFO 21980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
-2023-11-01T12:49:46.716+03:00  INFO 21980 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : Started Tech3SpringReactApplication in 5.877 seconds (process running for 6.897)
-2023-11-01T12:50:15.307+03:00  INFO 21980 --- [http-nio-4444-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-11-01T12:50:15.307+03:00  INFO 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-11-01T12:50:15.307+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2023-11-01T12:50:15.307+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2023-11-01T12:50:15.308+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2023-11-01T12:50:15.309+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@412c1889
-2023-11-01T12:50:15.310+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@10d3a31
-2023-11-01T12:50:15.310+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2023-11-01T12:50:15.310+03:00  INFO 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2023-11-01T12:50:15.334+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2023-11-01T12:50:15.383+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2023-11-01T12:50:15.629+03:00 DEBUG 21980 --- [http-nio-4444-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2023-11-01T12:50:15.655+03:00 DEBUG 21980 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
-2023-11-01T12:50:15.656+03:00 DEBUG 21980 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
-2023-11-01T12:50:15.660+03:00 DEBUG 21980 --- [http-nio-4444-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2023-11-01T12:50:15.660+03:00 DEBUG 21980 --- [http-nio-4444-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2023-11-01T12:50:15.667+03:00 DEBUG 21980 --- [http-nio-4444-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2023-11-01T12:50:15.667+03:00 DEBUG 21980 --- [http-nio-4444-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2023-11-01T12:50:26.131+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/index.html", parameters={}
-2023-11-01T12:50:26.132+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2023-11-01T12:50:26.133+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2023-11-01T12:50:26.134+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2023-11-01T12:50:26.137+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2023-11-01T12:50:26.139+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
-2023-11-01T12:50:26.158+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
-2023-11-01T12:50:26.164+03:00 DEBUG 21980 --- [http-nio-4444-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2023-11-01T12:50:42.892+03:00 DEBUG 21980 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
-2023-11-01T12:50:42.893+03:00 DEBUG 21980 --- [http-nio-4444-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
-2023-11-01T12:50:42.896+03:00 DEBUG 21980 --- [http-nio-4444-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2023-11-01T12:50:42.922+03:00 DEBUG 21980 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/js/template.js", parameters={}
-2023-11-01T12:50:42.922+03:00 DEBUG 21980 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
-2023-11-01T12:50:42.923+03:00 DEBUG 21980 --- [http-nio-4444-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2023-11-01T12:50:42.924+03:00 DEBUG 21980 --- [http-nio-4444-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2023-11-01T12:50:42.925+03:00 DEBUG 21980 --- [http-nio-4444-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2023-11-01T12:50:42.926+03:00 DEBUG 21980 --- [http-nio-4444-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2023-11-01T14:48:43.345+03:00  INFO 21980 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2023-11-01T14:48:43.363+03:00  INFO 21980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2023-11-01T14:48:43.369+03:00  INFO 21980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2023-11-01T14:48:52.959+03:00  INFO 6732 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : Starting Tech3SpringReactApplication using Java 21 with PID 6732 (D:\spring\Tech_3_SpringReact\target\classes started by 90553 in D:\spring\Tech_3_SpringReact)
-2023-11-01T14:48:52.961+03:00  INFO 6732 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : The following 1 profile is active: "frontend"
-2023-11-01T14:48:53.012+03:00  INFO 6732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-11-01T14:48:53.013+03:00  INFO 6732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-11-01T14:48:53.901+03:00  INFO 6732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-11-01T14:48:53.950+03:00  INFO 6732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
-2023-11-01T14:48:54.500+03:00  INFO 6732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4444 (http)
-2023-11-01T14:48:54.506+03:00  INFO 6732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-11-01T14:48:54.507+03:00  INFO 6732 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
-2023-11-01T14:48:54.555+03:00  INFO 6732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-11-01T14:48:54.556+03:00  INFO 6732 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1543 ms
-2023-11-01T14:48:54.636+03:00  INFO 6732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2023-11-01T14:48:54.823+03:00  INFO 6732 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
-2023-11-01T14:48:54.824+03:00  INFO 6732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2023-11-01T14:48:54.833+03:00  INFO 6732 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
-2023-11-01T14:48:54.892+03:00 DEBUG 6732 --- [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
-2023-11-01T14:48:54.893+03:00 DEBUG 6732 --- [restartedMain] o.s.w.s.r.ResourceUrlEncodingFilter      : Filter 'resourceUrlEncodingFilter' configured for use
-2023-11-01T14:48:55.337+03:00  INFO 6732 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2023-11-01T14:48:56.216+03:00  INFO 6732 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-11-01T14:48:56.225+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.AuditorAwareBeanClass         : auditor Aware bean Before başladı
-2023-11-01T14:48:56.226+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.BlogCommandLineRunner         : blog CommandLineRunner After Bean Method başladı
-2023-11-01T14:48:56.227+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.Locale18NBeanClass            : swagger Open Api Before Bean başladı
-2023-11-01T14:48:56.228+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.ModelMapperBeanClass          : Model mapper bean Before başladı
-2023-11-01T14:48:56.228+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.PasswordEncoderBeanClass      : password Encoder Before Bean başladı
-2023-11-01T14:48:56.229+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.SwaggerOpenApiBeanClass       : swagger Open Api Before Bean başladı
-2023-11-01T14:48:56.703+03:00  WARN 6732 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-11-01T14:48:56.809+03:00 DEBUG 6732 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2023-11-01T14:48:56.834+03:00  INFO 6732 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-11-01T14:48:56.886+03:00 DEBUG 6732 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
-2023-11-01T14:48:57.253+03:00 DEBUG 6732 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
-2023-11-01T14:48:57.262+03:00 DEBUG 6732 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2023-11-01T14:48:57.638+03:00  INFO 6732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-11-01T14:48:57.644+03:00  INFO 6732 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
-2023-11-01T14:48:57.725+03:00  INFO 6732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4444 (http) with context path ''
-2023-11-01T14:48:57.737+03:00  INFO 6732 --- [restartedMain] c.h.t.Tech3SpringReactApplication        : Started Tech3SpringReactApplication in 5.154 seconds (process running for 5.793)
-2023-11-01T14:48:57.742+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.BlogCommandLineRunner2        : CommandLineRunner Çalıştı Sade
-2023-11-01T14:48:57.742+03:00  INFO 6732 --- [restartedMain] c.h.t.bean.BlogCommandLineRunner         : CommandLineRunner Çalıştı
+2023-11-03T09:44:05.719+03:00  INFO 11700 --- [main] c.h.t.Tech3SpringReactApplicationTests   : Starting Tech3SpringReactApplicationTests using Java 21 with PID 11700 (started by 90553 in D:\spring\Tech_3_SpringReact)
+2023-11-03T09:44:05.728+03:00  INFO 11700 --- [main] c.h.t.Tech3SpringReactApplicationTests   : The following 1 profile is active: "frontend"
+2023-11-03T09:44:05.766+03:00 DEBUG 11700 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6ac4944a
+2023-11-03T09:44:07.140+03:00  INFO 11700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-03T09:44:07.209+03:00  INFO 11700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2023-11-03T09:44:08.522+03:00  INFO 11700 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-03T09:44:08.559+03:00  INFO 11700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-03T09:44:08.869+03:00  INFO 11700 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/blog user=SA
+2023-11-03T09:44:08.871+03:00  INFO 11700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-03T09:44:09.776+03:00  INFO 11700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03T09:44:09.791+03:00  INFO 11700 --- [main] c.h.t.bean.AuditorAwareBeanClass         : auditor Aware bean Before başladı
+2023-11-03T09:44:09.793+03:00  INFO 11700 --- [main] c.h.t.bean.BlogCommandLineRunner         : blog CommandLineRunner After Bean Method başladı
+2023-11-03T09:44:09.795+03:00  INFO 11700 --- [main] c.h.t.bean.Locale18NBeanClass            : swagger Open Api Before Bean başladı
+2023-11-03T09:44:09.796+03:00  INFO 11700 --- [main] c.h.t.bean.ModelMapperBeanClass          : Model mapper bean Before başladı
+2023-11-03T09:44:09.797+03:00  INFO 11700 --- [main] c.h.t.bean.PasswordEncoderBeanClass      : password Encoder Before Bean başladı
+2023-11-03T09:44:09.799+03:00  INFO 11700 --- [main] c.h.t.bean.SwaggerOpenApiBeanClass       : swagger Open Api Before Bean başladı
+2023-11-03T09:44:10.644+03:00  WARN 11700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-03T09:44:10.839+03:00 DEBUG 11700 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-11-03T09:44:10.906+03:00  INFO 11700 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-11-03T09:44:11.009+03:00 DEBUG 11700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2023-11-03T09:44:11.957+03:00 DEBUG 11700 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2023-11-03T09:44:11.977+03:00 DEBUG 11700 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-11-03T09:44:12.542+03:00  INFO 11700 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/blog'
+2023-11-03T09:44:12.582+03:00  INFO 11700 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2023-11-03T09:44:12.671+03:00  INFO 11700 --- [main] c.h.t.Tech3SpringReactApplicationTests   : Started Tech3SpringReactApplicationTests in 7.299 seconds (process running for 8.434)
+2023-11-03T09:44:12.792+03:00  INFO 11700 --- [main] c.h.t.bean.BlogCommandLineRunner2        : CommandLineRunner Çalıştı Sade
+2023-11-03T09:44:12.793+03:00  INFO 11700 --- [main] c.h.t.bean.BlogCommandLineRunner         : CommandLineRunner Çalıştı
+2023-11-03T09:44:14.004+03:00 DEBUG 11700 --- [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6ac4944a, started on Fri Nov 03 12:14:05 IST 2023
+2023-11-03T09:44:14.013+03:00  INFO 11700 --- [SpringApplicationShutdownHook] c.h.t.bean.SwaggerOpenApiBeanClass       : swagger Open Api After Bean bitti
+2023-11-03T09:44:14.014+03:00  INFO 11700 --- [SpringApplicationShutdownHook] c.h.t.bean.PasswordEncoderBeanClass      : password Encoder After Bean bitti
+2023-11-03T09:44:14.015+03:00  INFO 11700 --- [SpringApplicationShutdownHook] c.h.t.bean.ModelMapperBeanClass          : Model mapper After bean bitti
+2023-11-03T09:44:14.015+03:00  INFO 11700 --- [SpringApplicationShutdownHook] c.h.t.bean.Locale18NBeanClass            : locale 18N After Bean Method bitti
+2023-11-03T09:44:14.015+03:00  INFO 11700 --- [SpringApplicationShutdownHook] c.h.t.bean.BlogCommandLineRunner         : blog CommandLineRunner Before Bean Method bitti
+2023-11-03T09:44:14.016+03:00  INFO 11700 --- [SpringApplicationShutdownHook] c.h.t.bean.AuditorAwareBeanClass         : auditor Aware After bean bitti
+2023-11-03T09:44:14.016+03:00  INFO 11700 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03T09:44:14.020+03:00  INFO 11700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-03T09:44:14.024+03:00  INFO 11700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
